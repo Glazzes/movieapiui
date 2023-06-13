@@ -1,0 +1,163 @@
+@import '../../assets/variables.css';
+
+.mainInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: var(--p8);
+    margin-bottom: var(--p8);
+}
+
+.usernamePasswordLogin {
+    display: flex;
+    flex-direction: column;
+    gap: var(--p4);
+}
+
+.logoText {
+    color: var(--vibrant-color);
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.login {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--text-main-color);
+    margin: 0;
+    padding: 0;
+}
+
+.login-method {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.googleLoginContainer {
+    width: 100%;
+    height: var(--touchable-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--p2);
+    border-radius: var(--p2);
+    border-width: 1px;
+    border-color: var(--border-color);
+    border-style: solid;
+    cursor: pointer;
+}
+
+.googleLoginContainer img {
+    width: 22px;
+    height: 22px;
+}
+
+.googleLogin {
+    padding: var(--p4);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-line: none;
+}
+
+.googleLoginText {
+    color: var(--text-main-color);
+}
+
+.dividerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--p4);
+}
+
+.divider {
+    flex: 1;
+    height: 2px;
+    background-color: var(--divider-color);
+}
+
+.continueWithEmail {
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text-secondary-color);   
+}
+
+.infoCard {
+    background-color: var(--information-color);
+    padding: var(--p4);
+    border-radius: var(--p2);
+    font-size: 13px;
+}
+
+.infoCardText {
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--information-text-color);
+    display: inline-block;
+}
+
+.textInput {
+    background-color: var(--text-input-color);
+    border-radius: var(--p2);
+    border-color: var(--border-color);
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 var(--p4) 0 var(--p4);
+    height: var(--touchable-height);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--p4);
+}
+
+.textInput input {
+    width: 100%;
+    height: var(--touchable-height);
+    background-color: transparent;
+    border-width: 0px;
+    color: var(--text-secondary-color);
+    font-family: var(--font);
+    font-weight: 600;
+    outline: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.loginButton {
+    width: 100%;
+    height: var(--touchable-height);
+    background-color: var(--vibrant-color);
+    border-radius: var(--p2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginButtonText {
+    color: white;
+    font-family: var(--font);
+    font-weight: 400;
+    text-decoration-line: none;
+}
+
+.doNotHaveAnAccount {
+    text-align: center;
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text-secondary-color);
+}
+
+.register {
+    color: var(--vibrant-color);
+    text-decoration-line: none;
+}

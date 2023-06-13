@@ -1,0 +1,25 @@
+@import '../../assets/variables.css';
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--p2);
+}
+
+.iconContainer {
+    background-color: var(--vibrant-color);
+    border-radius: var(--p2);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText {
+    color: var(--vibrant-color);
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 20px;
+}
